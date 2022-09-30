@@ -1,5 +1,6 @@
 .news {
-	padding-top: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	min-height: 500px;
 	background: #000;
 	&__title {
@@ -11,7 +12,7 @@
 		padding-top: 10px;
 		text-align: center;
 		color: #fff;
-		background: url('../img/sky.jpeg') center center/cover no-repeat;
+		background: url('../img/sky_in_window.jpg') center center/cover no-repeat;
 		font-weight: 500;
 		font-size: 40px;
 		span {
@@ -23,8 +24,32 @@
 		width: 950px;
 		margin: 0 auto;
 		margin-top: 20px;
-		padding: 20px;
+		padding: 30px;
 		background-color: #fff;
+		border-style: solid;
+		border-color: #fff;
 		border-radius: 15px;
+	}
+	&__header {
+		font-size: 32px;
+		font-weight: 600;
+		
+	}
+	&__line {
+		height: 2px;
+		background-color: #000;
+	}
+	&__descr {
+		font-size: 23px;
+		font-weight: 200;
+		img {
+			float: left;
+			margin: 10px;
+			max-width: 320px;
+			border-radius: 5px;
+		}
+		span {
+			color: #CC3300;
+		}
 	}
 }

@@ -1,17 +1,19 @@
 .title {
 	display: block;
+	padding: 10px;
 	max-width: 730px;
+	min-height: 50px;
 	font-weight: 600;
 	font-size: 36px;
 	color: #fff;
 	text-transform: uppercase;
 	background: url('../img/sky.jpeg') center center/cover no-repeat;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 15px;
 	&_margin-center {
 		margin: 0 auto;
 	}
 	&_mt {
-		margin-top: 30px;
+		margin-top: 50px;
 	}
 }
