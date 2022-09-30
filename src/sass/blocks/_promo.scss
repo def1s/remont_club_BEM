@@ -1,0 +1,36 @@
+.promo {
+	min-height: 554px;
+	background-color: #000;
+	&__wrapper {
+		min-height: 554px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__descr {
+		margin-top: 20px;
+		width: 434px;
+	}
+	&__header {
+		font-weight: 700;
+		font-size: 60px;
+		color: white;
+		transition: 0.5s all;
+		&:hover {
+			color: #CC3300
+		}
+	}
+	&__text {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 28px;
+		color: #fff;
+		background-color: rgba(0, 0, 0, .2);
+	}
+	&__img {
+		width: 500px;
+		img {
+			width: 100%;
+		}
+	}
+}
