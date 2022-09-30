@@ -1,0 +1,30 @@
+.news {
+	padding-top: 30px;
+	min-height: 500px;
+	background: #000;
+	&__title {
+		display: block;
+		min-height: 80px;
+		max-width: 950px;
+		border-radius: 25px;
+		margin: 0 auto;
+		padding-top: 10px;
+		text-align: center;
+		color: #fff;
+		background: url('../img/sky.jpeg') center center/cover no-repeat;
+		font-weight: 500;
+		font-size: 40px;
+		span {
+			color: #CC3300;
+			font-weight: 700;
+		}
+	}
+	&__block {
+		width: 950px;
+		margin: 0 auto;
+		margin-top: 20px;
+		padding: 20px;
+		background-color: #fff;
+		border-radius: 15px;
+	}
+}

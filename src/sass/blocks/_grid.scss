@@ -1,0 +1,40 @@
+.grid {
+	width: 1140px;
+	&__item {
+		z-index: 1;
+		display: block;
+		text-decoration: none;
+		margin: 15px;
+		padding: 30px;
+		width: 350px;
+		border-radius: 10px;
+		background-color: #333333;
+		transition: 0.5s all;
+		box-shadow: 0 0 0;
+		&:hover {
+			background-color: #CC0033;
+		}
+		&:active {
+			background-color: #FF3333;
+		}
+	}
+	&__header {
+		font-weight: 600;
+		font-size: 36px;
+		color: #fff;
+	}
+	&__descr {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 23px;
+		color: #fff;
+	}
+
+	&_two-columns {
+		width: 760px;
+		margin: 0 auto;
+	}
+	&_mt {
+		margin-top: 20px;
+	}
+}

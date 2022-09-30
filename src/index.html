@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+	<script src="js/masonry.pkgd.min.js"></script>
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/style.min.css?version=3">
@@ -41,6 +40,7 @@
 
 				<div class="header__wrapper">
 					<a href=""><span>ремонт</span></a>
+					<a href=""><span>!</span> новости</a>
 					<a href="">материалы</a>
 				</div>
 
@@ -65,28 +65,86 @@
 		</div>
 	</section>
 
-	<section class="material">
+	<section class="news">
 		<div class="container">
-			<div class="row" data-masonry='{"percentPosition": true }'>
-			
-					<div class="col-md-4"><div class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ullam error reprehenderit veniam possimus tempore a in, dolorum cumque alias culpa optio nisi consequatur? Dolores laudantium accusamus id unde odit. dsjgjasg asdkgjaklsdg asdgaksjdg блок 1</div></div>
 
-					<div class="col-md-4"><div class="block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi tempora sint inventore. Perferendis minima nam, esse tenetur repudiandae, animi ut quaerat reiciendis nesciunt, aspernatur voluptatem dignissimos fugiat obcaecati autem ex. блок 2</div></div>
+			<div class="news__title">Новости на <span>РЕМОНТ</span> клаб.</div>
 
-					<!-- <div class="col-md-100%"></div> -->
-
-					<div class="col-md-4 offset-md-2"><div class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque id minus consequuntur obcaecati eum quisquam iusto soluta maxime. Debitis eos vitae dolor voluptatem, ratione officiis tempora soluta dicta voluptas? блок 3</div></div>
-
-					<div class="col-md-4"><div class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos facere corrupti molestias dolorum esse rem provident nemo asperiores mollitia ad aut temporibus quidem labore expedita, atque neque iusto ea? блок 4</div></div>
-
-					<!-- <div class="col-md-100%"></div> -->
-
-					<div class="col-md-4 offset-md-2"><div class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque id minus consequuntur obcaecati eum quisquam iusto soluta maxime. Debitis eos vitae dolor voluptatem, ratione officiis tempora soluta dicta voluptas? блок 5</div></div>
-
-					<div class="col-md-4"><div class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dignissimos facere corrupti molestias dolorum esse rem provident nemo asperiores mollitia ad aut temporibus quidem labore expedita, atque neque iusto ea? блок 6</div></div>
-
+			<div class="news__block">
+				<div class="news__header">какой-то заголовок</div>
+				<div class="news__descr">какое-то описание</div>
 			</div>
+
 		</div>
 	</section>
+
+	<section class="material">
+		<div class="container">
+
+			<div class="title title_margin-center">1 курс</div>
+			
+			<div class="grid grid_two-columns grid_mt" data-masonry='{ "columnWidth": 0, "itemSelector": ".grid__item" }'>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Математич. анализ</h2>
+					<div class="grid__descr">Рубежные контроли и ответы к ним, КР, материалы для экзамена</div>
+				</a>
+				
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Аналитич. геометрия</h2>
+					<div class="grid__descr">Рубежные контроли и ответы к ним, разборы заданий</div>
+				</a>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Химия</h2>
+					<div class="grid__descr">Лабораторные работы</div>
+				</a>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Начерт. геометрия</h2>
+					<div class="grid__descr">Рубежные контроли и ответы к ним, разборы заданий</div>
+				</a>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Информатика</h2>
+					<div class="grid__descr">Экзаменационные материалы</div>
+				</a>
+
+			</div>
+
+			<div class="title title_margin-center title_mt">2 курс</div>
+
+			<div class="grid grid_two-columns grid_mt" data-masonry='{ "columnWidth": 0, "itemSelector": ".grid__item" }'>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Физика</h2>
+					<div class="grid__descr">Рубежные контроли и ответы к ним, КР, материалы для экзамена</div>
+				</a>
+				
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Прикладная механика</h2>
+					<div class="grid__descr">Рубежные контроли и ответы к ним, разборы заданий</div>
+				</a>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Кратные интегралы</h2>
+					<div class="grid__descr">Здесь скоро что-то будет...</div>
+				</a>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Алгоритмы</h2>
+					<div class="grid__descr">И здесь должно что-то быть...</div>
+				</a>
+
+				<a href="pages/math_analysis/index.html" class="grid__item">
+					<h2 class="grid__header">Электротехника</h2>
+					<div class="grid__descr">Пока что пусто...</div>
+				</a>
+
+			</div>
+
+		</div>
+	</section>
+
 </body>
 </html>
