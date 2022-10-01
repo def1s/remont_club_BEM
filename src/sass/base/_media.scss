@@ -1,3 +1,19 @@
+@media (max-width: 1399px) {
+	.material {
+		.grid {
+			width: 760px;
+		}
+	}
+}
+
+@media (max-width: 1199px) {
+	.material {
+		.grid {
+			width: 760px;
+		}
+	}
+}
+
 @media (max-width: 991px) {
 	.promo {
 		.promo__header {
@@ -10,6 +26,12 @@
 	}
 
 	.material {
+		.title_desktop {
+			display: none;
+		}
+		.title_mobile {
+			display: block;
+		}
 		.grid {
 			width: 660px;
 			&__item {

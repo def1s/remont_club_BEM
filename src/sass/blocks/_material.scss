@@ -1,5 +1,12 @@
 .material {
 	min-height: 700px;
-	background: linear-gradient(175deg, rgba(0,0,0,1) 58%, rgba(238,130,238,1) 82%, rgba(255,0,0,1) 100%);
-	padding: 30px;
+	background: linear-gradient(175deg, rgba(0,0,0,1) 28%, rgba(51, 88, 140, 1) 72%, rgba(88,109,141,1) 100%);
+	// background: linear-gradient(175deg, rgba(0,0,0,1) 58%, rgba(238,130,238,1) 82%, rgba(255,0,0,1) 100%);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	&_background-theme-yellow {
+		// background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+		background: linear-gradient(0deg, rgb(51, 88, 140) 0%, rgb(88, 109, 141) 100%);
+		min-height: 1220px;
+	}
 }

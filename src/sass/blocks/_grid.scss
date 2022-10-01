@@ -11,12 +11,22 @@
 		background-color: #333333;
 		transition: 0.5s all;
 		box-shadow: 0 0 0;
-		&:hover {
-			background-color: #CC0033;
+		&_red-hover {
+			&:hover {
+				background-color: #CC0033;
+			}
 		}
-		&:active {
-			background-color: #FF3333;
+		&_red-active {
+			&:active {
+				background-color: #FF3333;
+			}
 		}
+		// &:hover {
+		// 	background-color: #CC0033;
+		// }
+		// &:active {
+		// 	background-color: #FF3333;
+		// }
 	}
 	&__header {
 		font-weight: 600;
@@ -28,10 +38,30 @@
 		font-size: 20px;
 		line-height: 23px;
 		color: #fff;
+		&-link {
+			display: inline-block;
+			margin-top: 10px;
+			padding: 5px 20px;
+			background: #000000;
+			border: 1px solid #000000;
+			border-radius: 20px;
+			color: #fff;
+			text-decoration: none;
+			text-align: center;
+			&:hover {
+				background-color: #CC0033;
+				color: #fff;
+			}
+		}
 	}
+
 
 	&_two-columns {
 		width: 760px;
+		margin: 0 auto;
+	}
+	&_three-columns {
+		width: 1140px;
 		margin: 0 auto;
 	}
 	&_mt {

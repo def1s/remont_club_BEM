@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,14 +34,16 @@
 </head>
 <body>
 
+	<span id="promo_pointer"></span>
+
 	<header class="header">
 		<nav class="header__menu">
 			<div class="container">
 
 				<div class="header__wrapper">
-					<a href=""><span>ремонт</span></a>
-					<a href=""><span>!</span> новости</a>
-					<a href="">материалы</a>
+					<a href="#promo_pointer"><span>ремонт</span></a>
+					<a href="#news_pointer"><span>!</span> новости</a>
+					<a href="#material_pointer">материалы</a>
 				</div>
 
 			</div>
@@ -63,6 +65,9 @@
 			</div>
 
 		</div>
+
+		<span id="news_pointer"></span>
+
 	</section>
 
 	<section class="news">
@@ -77,6 +82,9 @@
 			</div>
 
 		</div>
+
+		<span id="material_pointer"></span> <!-- якорь, нужно пофиксить! -->
+
 	</section>
 
 	<section class="material">
@@ -86,27 +94,27 @@
 			
 			<div class="grid grid_two-columns grid_mt" data-masonry='{ "columnWidth": 0, "itemSelector": ".grid__item" }'>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="pages/math_an.html" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Математич. анализ</h2>
 					<div class="grid__descr">Рубежные контроли и ответы к ним, КР, материалы для экзамена</div>
 				</a>
 				
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="pages/analith.html" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Аналитич. геометрия</h2>
 					<div class="grid__descr">Рубежные контроли и ответы к ним, разборы заданий</div>
 				</a>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="pages/chemestry.html" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Химия</h2>
 					<div class="grid__descr">Лабораторные работы</div>
 				</a>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="pages/nachert.html" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Начерт. геометрия</h2>
 					<div class="grid__descr">Рубежные контроли и ответы к ним, разборы заданий</div>
 				</a>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="pages/informatika.html" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Информатика</h2>
 					<div class="grid__descr">Экзаменационные материалы</div>
 				</a>
@@ -117,27 +125,27 @@
 
 			<div class="grid grid_two-columns grid_mt" data-masonry='{ "columnWidth": 0, "itemSelector": ".grid__item" }'>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="pages/fizika.html" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Физика</h2>
 					<div class="grid__descr">Рубежные контроли и ответы к ним, КР, материалы для экзамена</div>
 				</a>
 				
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="pages/mech.html" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Прикладная механика</h2>
 					<div class="grid__descr">Рубежные контроли и ответы к ним, разборы заданий</div>
 				</a>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="#" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Кратные интегралы</h2>
 					<div class="grid__descr">Здесь скоро что-то будет...</div>
 				</a>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="#" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Алгоритмы</h2>
 					<div class="grid__descr">И здесь должно что-то быть...</div>
 				</a>
 
-				<a href="pages/math_analysis/index.html" class="grid__item">
+				<a href="#" class="grid__item grid__item_red-hover grid__item_red-active">
 					<h2 class="grid__header">Электротехника</h2>
 					<div class="grid__descr">Пока что пусто...</div>
 				</a>
