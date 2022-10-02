@@ -7,6 +7,12 @@
 }
 
 @media (max-width: 1199px) {
+	.news {
+		.news__ {
+			
+		}
+	}
+
 	.material {
 		.grid {
 			width: 760px;
@@ -120,9 +126,9 @@
 
 	.news {
 		.news__block {
-			padding: 10px;
+			// padding: 10px;
 			.news__descr {
-				line-height: 22px;
+				// line-height: 22px;
 			}
 		}
 	}
