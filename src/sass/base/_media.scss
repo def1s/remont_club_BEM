@@ -7,13 +7,17 @@
 }
 
 @media (max-width: 1199px) {
-	.news {
-		.news__ {
-			
+	.news { /* адаптирую нижние края новостей, когда у меня ширина становится такой, что описание к картинке переезжает вниз */
+		.news__text {
+			border-bottom-left-radius: 13px;
+		}
+		.news__img {
+			img {
+				border-bottom-left-radius: 0px;
+			}
 		}
 	}
-
-	.material {
+	.material { /* это адаптация для страниц с материалом абсолютно для всех плиток */
 		.grid {
 			width: 760px;
 		}
@@ -30,9 +34,8 @@
 			line-height: 24px;
 		}
 	}
-
 	.material {
-		.title_desktop {
+		.title_desktop { 
 			display: none;
 		}
 		.title_mobile {
@@ -59,7 +62,6 @@
 			width: 500px;
 		}
 	}
-
 	.promo {
 		.promo__wrapper {
 			position: relative;
@@ -71,24 +73,6 @@
 			}
 		}
 	}
-
-	.news {
-		padding-top: 0;
-		.news__block {
-			.news__descr {
-				font-size: 20px;
-				line-height: 24px;
-				img {
-					float: none;
-					display: block;
-					margin: 0 auto;
-					margin-top: 15px;
-					margin-bottom: 15px;
-				}
-			}
-		}
-	}
-
 	.material {
 		.grid {
 			width: 300px;
@@ -106,7 +90,6 @@
 			width: 350px;
 		}
 	}
-
 	.promo {
 		.promo__descr {
 			margin: 10px;
@@ -123,16 +106,11 @@
 			width: 350px;
 		}
 	}
-
 	.news {
-		.news__block {
-			// padding: 10px;
-			.news__descr {
-				// line-height: 22px;
-			}
+		.news__subheader {
+			font-size: 26px;
 		}
 	}
-
 	.material {
 		.grid__header {
 			font-size: 24px;
@@ -141,14 +119,6 @@
 }
 
 @media (max-width: 400px) {
-	.news {
-		.news__descr {
-			img {
-				width: 100%;
-			}
-		}
-	}
-
 	.material {
 		.grid__item {
 			padding: 25px;
@@ -162,7 +132,6 @@
 			width: 300px;
 		}
 	}
-
 	.material {
 		.grid {
 			width: 280px;

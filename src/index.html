@@ -4,16 +4,16 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script> <!-- импортирую библиотеку масонри для плиток из материала -->
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="css/style.min.css?version=3">
+	<link rel="stylesheet" href="css/style.min.css?version=101">
 
 	<link type="image/x-icon" href="icons/favicon.ico" rel="shortcut icon">
 	<link type="Image/x-icon" href="icons/favicon.ico" rel="icon">
 
 	<!-- Yandex.Metrika counter -->
-	<!-- <script type="text/javascript" >
+	<script type="text/javascript" >
 		(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
 		var z = null;m[i].l=1*new Date();
 		for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
@@ -27,14 +27,14 @@
 			webvisor:true
 		});
 	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/90307310" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
+	<noscript><div><img src="https://mc.yandex.ru/watch/90307310" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
 
 	<title>РЕМОНТ КЛАБ</title>
 </head>
 <body>
 
-	<span id="promo_pointer"></span>
+	<span id="promo_pointer"></span> <!-- нужно исправить это, якорные ссылки работают не так, как я этого хочу, а через спэны - прошлый век -->
 
 	<header class="header">
 		<nav class="header__menu">
@@ -70,16 +70,10 @@
 
 	</section>
 
+
+	<!-- подумать, стоит ли оборачивать плитки новостей в отдельный блок для бэкграунда -->
 	<section class="news">
 		<div class="container">
-
-			<!-- <div class="news__title">Новости на <span>РЕМОНТ</span> клаб</div>
-
-			<div class="news__block">
-				<div class="news__header">Update from 1.10.22</div>
-				<div class="news__line"></div>
-				<div class="news__descr"> <img src="img/joji.gif" alt="">Спустя довольно много времени ремонт обновляется. Была добавлена данная заготовка раздела с новостями (я пока не знаю, как хочу это видеть), чтобы было удобнее отслеживать изменения на сайте и в материалах. <br><br>Исправлены незначительные ошибки, неверные ссылки. Мелкие косметические изменения, связанные с отступами. Немного поменялся дизайн заднего фона в разделе с материалом, градиента стало меньше. Ну и также изменились заголовки во всех разделах. <span>Изменений в файлах пока что нет! Материал собирается!</span></div>
-			</div> -->
 
 			<div class="news__block">
 
@@ -87,7 +81,7 @@
 					<h2>обновления ремонта</h2>
 				</div>
 
-				<div class="news__wrapper">
+				<div class="news__wrapper"> <!-- название не соответсвует действительности, это отдельный блок под новости, которые будут появляться на сайте в дальшейшем -->
 					<div class="news__img">
 						<img src="img/news_img/collage_edit.JPEG" alt="">
 					</div>
@@ -97,7 +91,7 @@
 							update from 2.10.22
 						</div>
 						<div class="news__descr">
-							Спустя долгое время ремонт ремонт обновился. В основном поменялся внешний вид, изменились основные цвета, стало меньше градиента. Из мелких изменений можно отметить корриектировку отступов, исправление неправильных ссылок. <br><br>На некоторых разрешениях экранов возникали наплывы блоков друг на друга, это было исправлено.
+							Спустя долгое время ремонт обновился. В основном поменялся внешний вид, изменились основные цвета, стало меньше градиента. Из мелких изменений можно отметить корриектировку отступов, исправление неправильных ссылок. <br><br>На некоторых разрешениях экранов возникали наплывы блоков друг на друга, это было исправлено.
 						</div>
 					</div>
 				</div>
