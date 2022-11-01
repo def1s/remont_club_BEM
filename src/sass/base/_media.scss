@@ -34,6 +34,11 @@
 			line-height: 24px;
 		}
 	}
+	.news {
+		.tabcontainer {
+			justify-content: space-between !important; //медиа запрос перебивается
+		}
+	}
 	.material {
 		.title_desktop { 
 			display: none;
@@ -60,6 +65,13 @@
 	.header {
 		.header__wrapper {
 			width: 500px;
+		}
+	}
+	.news {
+		.tabcontent {
+			.tabcontent__descr {
+				left: 110px;
+			}
 		}
 	}
 	.promo {
@@ -90,12 +102,44 @@
 			width: 350px;
 		}
 	}
+	.news {
+		.tabcontent {
+			.tabcontent__descr {
+				top: 270px;
+				left: 10px;
+			}
+		}
+		.tabheaders {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			background-color: rgba(204, 204, 204, 0.8);
+			padding: 10px;
+			border-radius: 10px;
+			.tabheader {
+				margin-top: 0 !important; //основной стиль перебивает этот медиа запрос! какая-то хуйня!!
+				&:last-child {
+					margin-top: 10px !important;
+				}
+			}
+		}
+	}
 	.promo {
 		.promo__descr {
 			margin: 10px;
 		}
 		.promo__img {
 			width: 400px;
+		}
+	}
+}
+
+@media (max-width: 445px) {
+	.news {
+		.tabcontent {
+			.tabcontent__descr {
+				width: 350px;
+			}
 		}
 	}
 }
@@ -124,6 +168,13 @@
 			padding: 25px;
 		}
 	}
+	.news {
+		.tabcontent {
+			.tabcontent__descr {
+				width: 320px;
+			}
+		}
+	}
 }
 
 @media (max-width: 374px) {
@@ -137,6 +188,13 @@
 			width: 280px;
 			.grid__item {
 				width: 280px;
+			}
+		}
+	}
+	.news {
+		.tabcontent {
+			.tabcontent__descr {
+				width: 310px;
 			}
 		}
 	}
